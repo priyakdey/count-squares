@@ -30,9 +30,9 @@ points = [[1, 1], [0, 0], [-4, 2], [-2, -1], [0, 1], [1, 0], [-1, 4]]
    # as does [1, 1], [-4, 2], [-2, -1], and [-1, 4]
 ```
 
-[!NOTE]
-This problem is from the [algoexpert.io](https://alogexpert.io) platform.
-[Link to problem](https://www.algoexpert.io/questions/count-squares)
+> [!NOTE]
+> This problem is from the [algoexpert.io](https://alogexpert.io) platform.
+> [Link to problem](https://www.algoexpert.io/questions/count-squares)
 
 ## Clarification
 
