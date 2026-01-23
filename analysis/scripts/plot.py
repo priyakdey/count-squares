@@ -42,6 +42,8 @@ def plot(
         n = to_int(r["n"])
         us_per_op = to_float(r["microseconds_per_op"])
         bytes_per_op = to_float(r["bytes_allocated_per_op"])
+        
+        print(dist, bytes_per_op)
 
         if plot_type == "time":
             # ops/sec = 1e6 / (us/op)
@@ -74,7 +76,7 @@ def plot(
     # y-scale:
     # - mem is almost always better in log (wide range)
     # - ops/sec also often spans big range; log makes comparisons readable
-    plt.yscale("log")
+    plt.yscale("log", base=2)
 
     plt.xlabel("n (number of points)")
 

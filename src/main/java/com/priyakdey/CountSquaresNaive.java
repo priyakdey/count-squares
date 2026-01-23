@@ -69,7 +69,7 @@ public class CountSquaresNaive {
         dist[4] = sqDist(p2, p4);
         dist[5] = sqDist(p3, p4);
 
-        // NOTE: This adds to the runtime, but is neglible. In a bigger picture
+        // NOTE: This adds to the runtime, but is negligible. In a bigger picture
         // this add O(1) complexity because of fixed size.
         Arrays.sort(dist);
 

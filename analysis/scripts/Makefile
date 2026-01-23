@@ -1,7 +1,7 @@
 .PHONY: parse time mem
 
 parse:
-	python3 parse_jmh.py --in ../../build/results/jmh/results.json --out output.csv
+	python3 parse_jmh.py --in results.json --out output.csv
 
 time:
 	python3 plot.py -i output.csv -o ../plots/grid_time_per_operation.png -d GRID -t time
