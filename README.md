@@ -73,10 +73,10 @@ unique squares that can be formed using those points as vertices.
 ├── analysis/
 │   ├── data/                           # Raw + parsed benchmark data
 │   ├── plots/                          # Generated plots (time & memory)
-│   └── scripts/                        # Parsing & plotting utilities
-├── Makefile                            # Root-level benchmark runner
+│   ├── scripts/                        # Parsing & plotting utilities
+|   └── Malefile                        # target to run analysis scripts
+├── Makefile                            # target to run benchmark
 └── README.md
-
 ```
 
 ---
