@@ -9,6 +9,7 @@ incrementally evolves toward cache-friendly, allocation-free implementations,
 backed by JMH benchmarks, memory analysis, and visualized results.
 
 > 📖 Blog: [Counting Squares — When Geometry Meets Performance](https://priyakdey.com/posts/software/counting-squares/)
+> 
 > 🎥 Video: _To be updated_
 
 ---
